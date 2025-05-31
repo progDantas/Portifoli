@@ -7,6 +7,10 @@ body {
       padding: 2rem;
     }
 
+    img {
+      width: 170px;
+    }
+
     .container {
       max-width: 800px;
       margin: auto;
