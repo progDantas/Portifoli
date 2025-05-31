@@ -7,12 +7,6 @@ body {
       padding: 2rem;
     }
 
-    img {
-      width: 170px;
-      padding: 0;
-      margin: 0;
-    }
-
     .container {
       max-width: 800px;
       margin: auto;
@@ -54,6 +48,7 @@ body {
     .section {
       text-align: left;
       margin-top: 2rem;
+      overflow-x: auto;
     }
 
     .section h3 {
@@ -73,6 +68,7 @@ body {
       width: 100%;
       border-collapse: collapse;
       margin-top: 1rem;
+      min-width: 600px;
     }
 
     th, td {
@@ -92,17 +88,11 @@ body {
 
     .whatsapp-btn {
       display: inline-block;
-      margin: 0.5rem 0;
-      background-color: #25d366;
-      color: #fff;
-      padding: 0.5rem 1rem;
-      border: none;
-      border-radius: 6px;
-      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      background-color: #25D366;
+      color: white;
+      padding: 0.4rem 0.8rem;
+      border-radius: 5px;
       text-decoration: none;
-      transition: background 0.3s;
-    }
-
-    .whatsapp-btn:hover {
-      background-color: #1ebe5b;
+      font-size: 0.9rem;
     }
